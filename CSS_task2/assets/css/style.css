@@ -1,0 +1,103 @@
+#header{
+    padding: 10px;
+}
+
+#header .header-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .header-items .left{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+#header .header-items .left .logo-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#header .header-items .left .logo-wrapper span{
+    color: rgb(146, 144, 144);
+}
+
+#header .header-items .left img{
+    margin-right: 10px;
+}
+
+#header .header-items .right{
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+#header .header-items .right ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header .header-items .right ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+#header .header-items .right ul li a {
+    color: rgb(6, 190, 168);
+    text-decoration: none; 
+    padding: 10px 20px; 
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(6, 190, 168);
+    margin-left: 15px;
+}
+
+.bottom-line{
+    margin: 10px 50px;
+    color: rgb(6, 190, 168);
+}
+
+/* main */
+
+#info .info-items{
+    padding-left: 45px;
+    width: 900px;
+}
+
+#info .info-items h1{
+    font-size: 30px;
+    color: rgb(6, 190, 168);
+}
+
+#info .info-items p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* data w pictures */
+
+#templates .template-pictures{
+    padding-top: 20px;
+    display: flex;
+    padding-left: 45px;
+}
+
+#templates .heading{
+    padding-left: 45px;
+}
+
+#templates .heading h2{
+    font-size: 30px;
+    color: rgb(6, 190, 168);
+}
+
+#templates .template-pictures .template-and-data img{
+    height: 300px;
+}
+
+#templates .template-pictures .template-and-data h4{
+    color: rgb(6, 190, 168);
+    padding-left: 80px;
+}

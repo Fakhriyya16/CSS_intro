@@ -1,0 +1,106 @@
+/* style for header section */
+
+#header {
+    background-color: rgb(2, 185, 130);
+}
+
+#header .nav-bar {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#header .nav-bar .nav-bar-items ul {
+    list-style: none;
+    display: flex;
+}   
+
+#header .nav-bar .nav-bar-items ul li {
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+#header .nav-bar .nav-bar-items ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* style for white screen section */
+#empty-screen{
+    height: 400px;
+}
+
+#empty-screen .interactive-button{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#empty-screen .interactive-button a button{
+    background-color: rgb(85, 164, 255);
+    height: 40px;
+    color: white;
+    border: 0.5px solid gray;
+    cursor: pointer;
+}
+
+/* style for about us section */
+
+#about-section{
+ background-color: rgb(2, 185, 130);
+ height: 125px;
+}
+
+#about-section .heading-about{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+#about-section .heading-about h2{
+    font-size: 29px;
+}
+
+/* style for team members heading section */
+#team-members-header .members-heading-text{
+    color: rgb(88, 88, 88);
+    text-align: center;
+    padding-top: 40px;
+}
+
+/* style for members */
+#member-items{
+    padding-top: 40px;
+}
+
+#member-items .all-members{
+    display: flex;
+    justify-content: space-around;
+}
+
+#member-items .all-members .members{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    padding: 30px 10px;
+    border-radius: 10px;
+    border: 0.5px solid rgba(197, 197, 197, 0.63);
+}
+
+#member-items .all-members .members.m1{
+    background-color: rgb(255, 190, 201);
+}
+
+#member-items .all-members .members.m2{
+    background-color: rgb(128, 255, 153);
+}
+
+#member-items .all-members .members.m3{
+    background-color: rgb(255, 254, 168);
+}
+
+#member-items .all-members .members.m4{
+    background-color: rgb(140, 230, 255);
+}
